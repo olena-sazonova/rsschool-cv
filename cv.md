@@ -1,7 +1,5 @@
 # Curriculum Vitae
 
-# Curriculum Vitae
-
 ## Olena Sazonova
 ### Junior Front-End Developer
 
