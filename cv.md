@@ -21,20 +21,20 @@
 - MySQL, PostgreSQL
 
 **Code example**
-	setInterval(function(){
-		context.clearRect(0,0,1000,600)
-		for(let i=0;i<balls.length;i++){
-			context.beginPath()
-			context.fillStyle=balls[i].color
-			if ((balls[i].x < balls[i].minX && balls[i].speedX<0)||(balls[i].x > balls[i].maxX && balls[i].speedX>0))
-				balls[i].speedX = -balls[i].speedX
-			if ((balls[i].y < balls[i].minY && balls[i].speedY<0)||(balls[i].y > balls[i].maxY && balls[i].speedY>0))
-				balls[i].speedY = -balls[i].speedY
-			context.arc(balls[i].x+=balls[i].speedX,balls[i].y+=balls[i].speedY,balls[i].radius,0,Math.PI*2,true)
-			context.closePath()
-			context.fill()
-		}
-		}, 100);
+	>setInterval(function(){
+		>context.clearRect(0,0,1000,600)
+		>for(let i=0;i<balls.length;i++){
+			>context.beginPath()
+			>context.fillStyle=balls[i].color
+			>if ((balls[i].x < balls[i].minX && balls[i].speedX<0)||(balls[i].x > balls[i].maxX && balls[i].speedX>0))
+				>balls[i].speedX = -balls[i].speedX
+			>if ((balls[i].y < balls[i].minY && balls[i].speedY<0)||(balls[i].y > balls[i].maxY && balls[i].speedY>0))
+				>balls[i].speedY = -balls[i].speedY
+			>context.arc(balls[i].x+=balls[i].speedX,balls[i].y+=balls[i].speedY,balls[i].radius,0,Math.PI*2,true)
+			>context.closePath()
+			>context.fill()
+		>}
+		>}, 100);
     
 **Experience**
 
